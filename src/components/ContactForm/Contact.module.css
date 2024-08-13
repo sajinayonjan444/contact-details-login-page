@@ -1,0 +1,61 @@
+.container{
+    
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+.top_btn{
+    display: flex;
+    gap: 32px;
+}
+.contact_form{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    height: calc(100vh-60px);
+   
+}
+.contact_form form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+.form_control{
+    display: flex;
+    flex-direction: column;
+    width: 47%;
+    position: relative;
+    
+}
+.form_control input{
+    height: 40px;
+    padding: 0 8px;
+}
+.form_control label{
+    font-size: 14px;
+    position: absolute;
+    top: -12px;
+    left: 10px;
+    background-color: white;
+    padding: 0 10px;
+}
+.contact_image{
+    flex: 1;
+    max-width: 40%;
+    
+}
+.contact_image img{
+    width: 160%;
+    height: auto;
+}
+.contact_form{
+    flex: 2;
+    max-width: 80%;
+}
+.container {
+    display: flex;
+    align-items: flex-start; 
+    justify-content: space-between; 
+    gap: 20px; 
+}
